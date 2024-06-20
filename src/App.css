@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(68, 124, 99);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width:100%;
+  height: auto;
+  background-color: white;
+  padding: 1em;
+  border-radius: 12px 0 12px 0;
+}
+.input-container{
+  display: flex;
+  align-items: center;
+  border: 2px solid skyblue;
+  border-radius: 2px;
+  padding: .1em;
+}
+.input-container>input{
+  flex: 1;
+  outline: none;
+  height: 2em;
+  border: none;
+  font-size:medium;
+  font-weight: 400;
+}
+.input-container>img{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.climate{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.image-state{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  outline: 2px solid black;
+  outline-offset: 10px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform:capitalize;
+  row-gap: 7px;
+}
+
+.tem{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.place{
+  font-weight:bolder;
+  font-size: larger;
+}
+.country{
+  font-weight: bold;
+}
+.co-ordinates-container{
+  display: flex;
+  column-gap: 15px;
+  margin-left: 18px;
+  margin-top: 10px;
+}
+.co-ordinates{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-image{
+  height: 30px;
+}
+.bottom{
+  text-align: center;
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
